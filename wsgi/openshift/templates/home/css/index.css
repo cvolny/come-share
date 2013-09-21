@@ -1,0 +1,21 @@
+.jumbotron {
+	text-align: center;
+	margin-top: -1em; /*Eliminates 'dead' space between nav & jumbotron*/
+}
+
+#driveIcon {
+	max-width: 15%;
+}
+
+#dropboxIcon {
+	max-width: 15%;
+}
+
+#skydriveIcon {
+	max-width: 25%;
+}
+
+#slogan {
+	font-style: italic;
+	padding-bottom: 15px;
+}
