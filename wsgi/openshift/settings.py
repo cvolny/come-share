@@ -153,6 +153,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'openshift.bootstrap_statics',
 )
 
 # A sample logging configuration. The only tangible logging
