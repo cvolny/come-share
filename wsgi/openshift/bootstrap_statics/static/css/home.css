@@ -1,5 +1,4 @@
 .jumbotron {
-	text-align: center;
 	margin-top: -1em; /*Eliminates 'dead' space between nav & jumbotron*/
 }
 
@@ -18,4 +17,13 @@
 #slogan {
 	font-style: italic;
 	padding-bottom: 15px;
+	text-align: center;
+}
+
+#providers {
+	text-align: center;
+}
+
+#providers .row img {
+	padding-right: 20px;
 }

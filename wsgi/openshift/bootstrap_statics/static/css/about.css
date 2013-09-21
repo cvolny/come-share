@@ -1,0 +1,5 @@
+/* styling for the About page */
+
+.jumbotron {
+	margin-top: -1em; /*Eliminates 'dead' space between nav & jumbotron*/
+}

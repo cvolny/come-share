@@ -1,0 +1,9 @@
+.jumbotron {
+	margin-top: -1em; /*Eliminates 'dead' space between nav & jumbotron*/
+}
+
+.panel {
+	text-align: center;
+}
+
+
