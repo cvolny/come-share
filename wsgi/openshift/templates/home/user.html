@@ -53,7 +53,7 @@
             <div class="row">
                 {% for file in files %}
                 <div class="col-xs-4 col-sm-3 col-md-2">
-                    <a href="#"><img src="{{ "/static/assets/images/" | add:file.type | add:".png" }}" alt="{{ file.type | title }}" /></a><br />
+                    <a href="#"><img src="{{ "/static/assets/images/"|add:file.type|add:".png" }}" alt="{{ file.type | title }}" /></a><br />
                     <a href="{{ file.link }}">{{ file.name }}</a><br />
                     <a href="#">
                         {{ file.tags | join:", " }}
