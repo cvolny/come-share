@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{%block title %}Come &middot Share{% endblock %}</title>
+    <title>{%block title %}CloudControl &middot; {% block page_title %}BASE!{% endblock %}{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% static "css/home.css" %}" rel="stylesheet" media="screen">
     <!-- Bootstrap -->
@@ -47,6 +47,7 @@
         -->
 
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="/user">Profile</a></li>
           <li><a href="/admin">Admin</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
