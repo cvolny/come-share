@@ -27,3 +27,12 @@
 #providers .row img {
 	padding-right: 20px;
 }
+
+table {
+	text-align: center;
+	margin: auto;
+}
+
+table tr {
+	margin:auto;
+}

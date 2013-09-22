@@ -16,6 +16,8 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 	url(r'^about/', 'openshift.views.about', name='about'),
 	url(r'^marketplace/', 'openshift.views.marketplace', name='marketplace'),
+	url(r'^user/', 'openshift.views.user', name='user'),
+
 )
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
