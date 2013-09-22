@@ -12,10 +12,20 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="well sidebar-nav">
             <ul class="nav">
+<style type="text/css">
+    .provider-logo {
+        float: left;
+    }
+    .label-text {
+        margin-left: 5em;
+        text-align: right;
+        display: block;
+    }
+</style>
               <li><a href="#">[Upload]</a></li>
-              <li><a href="#">[Google Drive]</a></li>
-              <li><a href="#">[Skydrive]</a></li>
-              <li><a href="#">[Dropbox]</a></li>
+              <li><a href="#"><img class="provider-logo" id="driveIcon" src="{% static "assets/images/Drive-Icon.png" %}" /><label class="label-text">Google Drive</label></a></li>
+              <li><a href="#"><img class="provider-logo" id="skydriveIcon" src="{% static "assets/images/skydrive.png" %}" /><label class="label-text">Skydrive</label></a></li>
+              <li><a href="#"><img class="provider-logo" id="dropboxIcon" src="{% static "assets/images/dropbox.png" %}" /><label class="label-text">Dropbox</label></a></li>
               <li><a href="#">Tags</a>
                 <ul>
                   <li><a href="#">EECS</a></li>
