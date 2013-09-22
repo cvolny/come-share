@@ -2,11 +2,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Come &middot Share</title>
+    <title>Cloud &middot Control</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% static "css/marketplace.css" %}" rel="stylesheet" media="screen">
     <!-- Bootstrap -->
     <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet" media="screen">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -25,7 +26,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">ComeShare</a>
+        <a class="navbar-brand" href="/">CloudControl</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,32 +46,47 @@
 
     <div class="jumbotron">
     	<div class="container">
-    		<div class="row">
-				<div class="col-sm-6 col-md-4">
-			    	<div class="panel">
-			    		<h2> Google </h2>
-			    		<p>&middot 15 GB</p>
-			    		<p>&middot 100 GB</p>
-			    		<a href="#" class="btn btn-primary">Purchase</a>
-			    	</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-			    	<div class="panel">
-			    		<h2> SkyDrive </h2>
-			    		<p>&middot 15 GB</p>
-			    		<p>&middot 100 GB</p>
-			    		<a href="#" class="btn btn-primary">Purchase</a>
-			    	</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-			    	<div class="panel">
-			    		<h2> Box </h2>
-			    		<p>&middot 15 GB</p>
-			    		<p>&middot 100 GB</p>
-			    		<a href="#" class="btn btn-primary">Purchase</a>
-			    	</div>
-				</div>
-    		</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div id="drive" class="panel">
+              <h3>Google Drive</h3>
+              <p>15gb</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div id="skydrive" class="panel">
+              <h3>SkyDrive</h3>
+              <p>10gb</p>
+            </div> 
+          </div>
+          <div class="col-md-4">
+            <div id="dropbox" class="panel">
+              <h3>Dropbox</h3>
+              <p>5gb</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="arrows" class="row">
+          <div class="col-md-4">
+            <span id="arrowRight" class="glyphicon glyphicon-arrow-down"></span>
+          </div>
+          <div class="col-md-4">
+            <span class="glyphicon glyphicon-arrow-down"></span>
+          </div>
+          <div class="col-md-4">
+            <span id="arrowLeft" class="glyphicon glyphicon-arrow-down"></span>
+          </div>          
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="cloudcontrol" class="panel">
+              <h3>Cloud Control</h3>
+              <p>30gb</p>
+            </div>
+          </div>
+        </div>
     	</div>
     </div>
 

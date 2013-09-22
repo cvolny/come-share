@@ -30,9 +30,14 @@
 
 table {
 	text-align: center;
-	margin: auto;
+
 }
 
 table tr {
-	margin:auto;
+	
+}
+
+#tableImage {
+	max-width: 150px;
+	max-height: 100px;
 }

@@ -2,4 +2,19 @@
 
 .jumbotron {
 	margin-top: -1em; /*Eliminates 'dead' space between nav & jumbotron*/
+
+}
+
+.jumbotron div h1 {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.jumbotron div p {
+	text-align: center;
+}
+
+.jumbotron div ul {
+	text-align: center;
+	list-style-position: inside;
 }

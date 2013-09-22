@@ -15,3 +15,50 @@
 	background-color: ;
 }
 
+#cloudcontrol {
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(left, #53E661 0%, #6EAAEF 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(left, #53E661 0%, #6EAAEF 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(left, #53E661 0%, #6EAAEF 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #53E661), color-stop(1, #6EAAEF));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(left, #53E661 0%, #6EAAEF 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to right, #53E661 0%, #6EAAEF 100%);
+}
+
+#drive {
+	background-color: #19A347;
+}
+
+#skydrive {
+	background-color: #0066FF;
+}
+
+#dropbox {
+	background-color: #70B8FF;
+}
+
+#arrows {
+	text-align: center;
+}
+
+#arrowRight {
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); /* IE 9 */
+	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
+}
+
+#arrowLeft {
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
