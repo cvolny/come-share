@@ -41,47 +41,5 @@ files = [
         'tags': ['EECS', 'Personal',],
         'hosted': ['skydrive',],
     },
-    {
-        'type': 'document',
-        'name': 'Document 1',
-        'link': 'https://skydrive.live.com/redir?resid=6FE15568D5991C04!104&authkey=!AJJ6Ic6C6OHv75M',
-        'tags': ['EECS', 'Personal',],
-        'hosted': ['skydrive',],
-    },
-    {
-        'type': 'document',
-        'name': 'Document 1',
-        'link': 'https://skydrive.live.com/redir?resid=6FE15568D5991C04!104&authkey=!AJJ6Ic6C6OHv75M',
-        'tags': ['EECS', 'Personal',],
-        'hosted': ['skydrive',],
-    },
-    {
-        'type': 'document',
-        'name': 'Document 1',
-        'link': 'https://skydrive.live.com/redir?resid=6FE15568D5991C04!104&authkey=!AJJ6Ic6C6OHv75M',
-        'tags': ['EECS', 'Personal',],
-        'hosted': ['skydrive',],
-    },
-    {
-        'type': 'document',
-        'name': 'Document 1',
-        'link': 'https://skydrive.live.com/redir?resid=6FE15568D5991C04!104&authkey=!AJJ6Ic6C6OHv75M',
-        'tags': ['EECS', 'Personal',],
-        'hosted': ['skydrive',],
-    },
-    {
-        'type': 'document',
-        'name': 'Document 1',
-        'link': 'https://skydrive.live.com/redir?resid=6FE15568D5991C04!104&authkey=!AJJ6Ic6C6OHv75M',
-        'tags': ['EECS', 'Personal',],
-        'hosted': ['skydrive',],
-    },
-    {
-        'type': 'document',
-        'name': 'Document 1',
-        'link': 'https://skydrive.live.com/redir?resid=6FE15568D5991C04!104&authkey=!AJJ6Ic6C6OHv75M',
-        'tags': ['EECS', 'Personal',],
-        'hosted': ['skydrive',],
-    },
 
 ]
